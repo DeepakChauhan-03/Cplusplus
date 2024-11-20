@@ -6,7 +6,7 @@ class Rectangle{
     int l;   //Data Member
     int b;
 
-    void getdata(){    //Member function
+    void getinput(){    //Member function
         cout<<"Enter Length: ";
         cin>>l;
         cout<<"Enter Breadth: ";
@@ -15,10 +15,14 @@ class Rectangle{
     void getArea(){
         cout<<"Area: "<<(l*b);
     }
+    void getPara(){
+        cout<<"\nParameter is: "<<(2*(l+b));
+    }
 };
 int main(){
     Rectangle R;
-    R.getdata();
+    R.getinput();
     R.getArea();
+    R.getPara();
     return 0;
 }
