@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 class Student{
-    private:
+    private:       //Member Data
             string name;
             string enroll;
             char grade;
@@ -13,7 +13,7 @@ class Student{
             int e;
             float per;
 public:
-    string getName(){     //Member Data
+    string getName(){     
         return name;
     }     
     string getEnroll(){
