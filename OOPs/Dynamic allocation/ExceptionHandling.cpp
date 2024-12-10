@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     cout<<"Line 1 "<<endl;
     cout<<"Line 2 "<<endl;
-    cout<<"Line 3 "<<endl;
+    cout<<"Line 3 ";
     int a=20,b=1,c=0;
 
     try{
@@ -16,7 +16,7 @@ int main(){
             throw 2.0;
         }
         c=a/b;
-        cout<<"\nThis is catch block";
+        cout<<"\nThis is catch block ";
     }
     catch(int i){
         cout<<"\nDenominator should not be "<<i<<endl;
